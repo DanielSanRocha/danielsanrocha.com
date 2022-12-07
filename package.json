@@ -7,9 +7,7 @@
   "scripts": {
     "dev": "nuxt",
     "clean": "rm -rf dist",
-    "build": "nuxt generate",
-    "push": "push-dir --dir=dist --branch=master --remote=static --cleanup --force",
-    "deploy": "npm run clean && npm run build && npm run push"
+    "generate": "nuxt generate"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.13.0",

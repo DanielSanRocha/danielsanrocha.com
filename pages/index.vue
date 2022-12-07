@@ -11,7 +11,7 @@ import index from "~/components/index.vue";
 export default {
   name: "index-page",
   components: { index },
-  data: function() {
+  data: function () {
     return {
       links: [
         {
@@ -20,36 +20,44 @@ export default {
           title: "SnakeAI",
           description:
             "A application of reinforcement learning for constructing a AI to play snake.",
-          thumbnail_src: "/thumbnails/snakeai.png"
+          thumbnail_src: "/thumbnails/snakeai.png",
         },
         {
           id: 2,
           ref: "/curriculum",
           title: "Curriculum Vitae",
           description: "My curriculum =)",
-          thumbnail_src: "/thumbnails/curriculum.png"
+          thumbnail_src: "/thumbnails/curriculum.png",
         },
         {
           id: 3,
+          ref: "https://github.com/danielsanrocha/xatu-observer",
+          title: "Xatu Observer",
+          description:
+            "An application for monitoring apis, services and docker containers",
+          thumbnail_src: "/thumbnails/xatu.png",
+        },
+        {
+          id: 4,
           ref: "https://github.com/danielsanrocha/scaleye",
           title: "Scaleye",
           description:
             "A scala wrapper for JavaCV using futures for parallel processing.",
           thumbnail_src: "/thumbnails/scaleye.png",
-          openInNewTab: true
+          openInNewTab: true,
         },
         {
-          id: 4,
+          id: 5,
           ref: "/restacademy",
           title: "RESTAcademy",
           description:
             "A interactive way to learn the basics about REST and HTTP.",
           thumbnail_src: "/thumbnails/restacademy.png",
-          openInNewTab: false
-        }
-      ]
+          openInNewTab: false,
+        },
+      ],
     };
-  }
+  },
 };
 </script>
 
