@@ -261,6 +261,7 @@ export default {
   margin: 0;
   padding: 0;
   background-color: gray;
+  border: 1px solid white;
 }
 
 .snakeai .food {

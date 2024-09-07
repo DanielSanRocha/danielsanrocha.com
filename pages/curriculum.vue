@@ -1,15 +1,12 @@
 <template>
   <div class="curriculum-wrapper">
-    <index :links="links" />
+    <home :links="links" />
   </div>
 </template>
 
 <script>
-import index from "~/components/index.vue";
-
 export default {
   name: "curriculum-page",
-  components: { index },
   data: function() {
     return {
       links: [

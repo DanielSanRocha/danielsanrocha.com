@@ -1,16 +1,13 @@
 <template>
   <div class="index-wrapper">
     <h2 class="description">Mathematician, programmer and aspiring bassist.</h2>
-    <index :links="links" />
+    <home :links="links" />
   </div>
 </template>
 
 <script>
-import index from "~/components/index.vue";
-
 export default {
   name: "index-page",
-  components: { index },
   data: function () {
     return {
       links: [
@@ -33,6 +30,7 @@ export default {
           id: 3,
           ref: "https://github.com/danielsanrocha/xatu-observer",
           title: "Xatu Observer",
+          openInNewTab: true,
           description:
             "An application for monitoring apis, services and docker containers",
           thumbnail_src: "/thumbnails/xatu.png",
