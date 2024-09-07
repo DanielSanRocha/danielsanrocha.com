@@ -1,17 +1,17 @@
 {
   "name": "danielsanrocha.com",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "My personal Home Page =)",
   "author": "danielsantanarocha@gmail.com",
   "type": "module",
   "scripts": {
     "dev": "nuxt dev",
-    "clean": "rm -rf dist",
-    "generate": "nuxt build"
+    "generate": "nuxt generate"
   },
   "dependencies": {
     "@iconify-json/ic": "^1.2.0",
     "@iconify-json/material-symbols-light": "^1.2.1",
+    "@iconify-json/mdi": "^1.2.0",
     "@iconify-json/ph": "^1.2.0",
     "@iconify-json/svg-spinners": "^1.2.0",
     "@iconify-json/uil": "^1.2.0",

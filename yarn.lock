@@ -673,6 +673,13 @@
   dependencies:
     "@iconify/types" "*"
 
+"@iconify-json/mdi@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@iconify-json/mdi/-/mdi-1.2.0.tgz#264ac2ceeb6135ad5e3d8dc63562a47df13b5a4a"
+  integrity sha512-E9/3l5Syg3wfuarorFodhn4s8YorxhH3U3U20LaNBNiqw1kFNIDWhF6HymuzAD35k7RH0OBasJ+ZUyFtVVV6eg==
+  dependencies:
+    "@iconify/types" "*"
+
 "@iconify-json/ph@^1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@iconify-json/ph/-/ph-1.2.0.tgz#f24d78fbfea7da7876e1e3269210ee15c16b2752"
@@ -6348,11 +6355,6 @@ vuejs-paginate-next@^1.0.2:
   dependencies:
     "@vue/test-utils" "^2.0.0-rc.17"
     vue "^3.2.25"
-
-vuejs-paginate@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/vuejs-paginate/-/vuejs-paginate-2.1.0.tgz#93e1ad1539b713a688c7a2d3080bda60fcc6c77d"
-  integrity sha512-gnwyXlmCiDOu9MLWxN5UJ4PGijKGNOMpHG8ujsrynCzTJljn/rp7Jq0WiDGDAMi5/u0AHuYIHhced+tUW4jblA==
 
 webidl-conversions@^3.0.0:
   version "3.0.1"

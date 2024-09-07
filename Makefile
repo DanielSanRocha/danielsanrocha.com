@@ -14,13 +14,14 @@ setup: ## Install dependencies
 dev: ## Start development server
 	make _nvm CMD="yarn dev"
 
-build: ## Build dist folder
+build: clean ## Build dist folder
 	make _nvm CMD="yarn generate"
 
 clean: ## Delete generated dist folder
-	yarn clean
+	rm -rf dist || true
+	rm -rf .output || true
 
-super-clean: ## Delete all temp files including node_modules
+super-clean: clean ## Delete all temp files including node_modules
 	rm -rf node_modules || true
 	rm -rf .nuxt || true
 	rm -rf yarn.lock || true
