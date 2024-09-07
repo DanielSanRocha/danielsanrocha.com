@@ -17,6 +17,10 @@
           <Icon name="mdi:github" mode="svg" size="1em" />
           Github
         </a>
+        <a class="navbar-item link is-hidden-desktop" href="https://www.linkedin.com/in/daniel-santana-rocha-48800439/" target="_blank">
+          <img src="/linkedin.svg" class="logo"/>
+          Linkedin
+        </a>
       </div>
     </div>
 
@@ -26,6 +30,10 @@
           <a class="navbar-item link" href="https://github.com/danielsanrocha/" target="_blank">
             <Icon name="mdi:github" mode="svg" size="1em" />
             Github
+          </a>
+          <a class="navbar-item link" href="https://www.linkedin.com/in/daniel-santana-rocha-48800439/" target="_blank">
+            <img src="/linkedin.svg" class="logo"/>
+            Linkedin
           </a>
         </div>
       </div>
